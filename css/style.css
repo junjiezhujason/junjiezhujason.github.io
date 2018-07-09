@@ -1,0 +1,151 @@
+body{
+   min-width:750px;        /* Suppose you want minimum width of 1000px */
+   width: auto !important;  /* Firefox will set width as auto */
+   width:600px;            /* As IE6 ignores !important it will set width as 1000px; */
+}
+
+.proj_row {
+    overflow: hidden;
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+.proj_txt {
+    vertical-align: top;
+    display: inline-block;
+    white-space: normal;
+    width: 50%;
+    /*height: 450px;*/
+    margin-bottom:20px;
+
+}
+.proj_img {
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+    /*margin-top: 35px;*/
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.old_proj {
+    width: 40%;
+    margin-left: 10px;
+}
+.proj_img h5 {
+    color: #003399;
+    text-align: center;
+}
+.proj_fig {
+    width: 100%;
+    /*min-width: 300px;*/
+}
+.main_container {
+  max-width: 800px;
+  margin: auto;
+}
+
+#content_container {
+    margin-top: 1em;
+}
+
+body p {
+    text-align: justify;
+}
+
+.img-headshot {
+    display: block;
+    max-width: 150px;
+    margin-top: 2em;
+}
+.jumbotron {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    padding-top: 0em;
+    padding-bottom: 2em;
+    background-position : center 0px;
+    background-size : 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(../img/headerbackground.png);
+}
+.jumbotron h1 {
+    font-size: 2em;
+    line-height: 1em;
+}
+.jumbotron p {
+    font-size: 1.1em;
+    margin-bottom: 0.01em;
+}
+.face-name div {
+    display: inline-block;
+    padding-left: 1em;
+    padding-right: 1em;
+    vertical-align: top;
+}
+.face-name .title{
+    margin-top: 1.8em;
+}
+
+.textbox{
+    background-image: url(../img/simplebackground.png);
+    background-position : center 0px;
+    background-size : 100% 100%;
+    background-repeat: no-repeat;
+/*    width: 100%
+    height: 100px;*/
+    margin-top: 5px;
+    /*padding: 12px;*/
+    border-radius: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+
+}
+
+.textbox p{
+    font-size: 1.1em;
+    font-weight: 1000;
+}
+
+a.panel-heading {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+}
+
+.panel-default .panel-heading[aria-expanded="false"]{
+    /*background-color: #BADBD6;*/
+    background-position : center 0px;
+    background-size : 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(../img/green_strip.png);
+}
+
+.panel-default .panel-heading[aria-expanded="true"], .panel-default .panel-heading a:hover, .panel-default a.panel-heading:hover{
+    /*background-color: #BDE2EE;*/
+    background-position : center 0px;
+    background-size : 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(../img/blue_strip.png);
+}
+
+.panel-group .panel-body {
+    border: 1px solid #ddd !important;
+    border-width: 0 1px 1px 1px !important;
+}
+.panel-group .panel-heading a, .panel-group a.panel-heading {
+    outline: 0;
+}
+.panel-group .panel-heading a:hover, .panel-group .panel-heading a:focus, .panel-group a.panel-heading:hover, .panel-group a.panel-heading:focus {
+    text-decoration: none;
+}
+.panel-group .panel-heading .icon-indicator {
+    margin-right: 10px;
+}
+.panel-group .panel-heading .icon-indicator:before {
+    content: "\e114";
+}
+.panel-group .panel-heading.collapsed .icon-indicator:before {
+    content: "\e080";
+}
