@@ -1,0 +1,6 @@
+docs/CV/*.aux
+docs/CV/*.fdb_latexmk
+docs/CV/*.fls
+docs/CV/*.log
+docs/CV/*.out
+docs/CV/*.synctex.gz
