@@ -14,9 +14,12 @@
 % character encoding
 \usepackage[utf8]{inputenc}     % replace by the encoding you are using
 \usepackage{footmisc}
-
+\usepackage{xcolor}
+\definecolor{myblue}{RGB}{0, 0, 102}
 
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\newcommand{\sstitle}[1]{\textcolor{myblue}{\textbf{\textit{#1}}}}
+
 
 % adjust the page margins
 \setlength{\hintscolumnwidth}{2.5cm}	% if you want to change the width of the column with the dates
@@ -54,6 +57,12 @@
 {}
 \vspace{-0.05in}
 \cventry{09/10 - 05/14}{ Franklin W. Olin College of Engineering}{}{Needham, MA \newline B.S. in Electrical and Computer Engineering}{}{}
+\vspace{0.05in}
+\cvline{}{\sstitle{Relevant coursework}: Deep Learning for Natural Language Processing; Applied Statistical Learning; Data Visualization; Design and Analysis of Algorithms; Mining Massive Data Sets; Statistical Signal Processing; Convex Optimization.}
+\vspace{0.02in}
+\cvline{}{\sstitle{Software development}: Data Mining and Visualization (pandas, D3.js);Machine Learning Modeling (scikit-learn, TensorFlow, Keras); Full-Stack Engineering (Flask, jQuery); Graph-Based Algorithm Design and Data Structures, UI Design.}
+\vspace{0.02in}
+\cvline{}{\sstitle{Programming languages}: Python, R,  JavaScript, C/C++, bash, MATLAB.}
 
 %%%%%%%%%%%%%
 \vspace{0.01in}
@@ -84,6 +93,8 @@ Developing graph visualization techniques to interpret and analyze the Gene Onto
  \newline
 Designed algorithms in C and C++ to improve both the speed and accuracy of current state-of-the-art sequence aligners when aligning linked-read data.
 }}
+
+
 \vspace{-0.05in}
 \cvline{09/10 - 05/14}{\textbf{Research Assistant}, Wireless Communication Group, Olin College
 \newline \textit{Advisor: Prof. Siddhartan Govindasamy}
@@ -103,6 +114,52 @@ Investigated scenarios of frequency assignment in wireless networks through grap
 \newline
 Studied the impact of unsynchronized (in frequency) interferers in multi-antenna Orthogonal Frequency-Division Multiplexing (OFDM) systems and found closed-form results for the performance of typical linear receivers.
 }
+
+%%%%%%%%%%%%%
+\vspace{0.1in}
+\section{Honors and Awards}
+\cventry{05/18}{Invited Talk}{invited to present work on cancer immuno-profiling analysis at the annual Stanford Center of Cancer Systems Biology Symposium}{}{\textit{Stanford, CA}}{}
+\cventry{04/18}{Popular Poster Award}{voted as the most popular poster at the annual Stanford Biomedical Computation Symposium}{}{\textit{Stanford, CA}}{}
+\cventry{01/18}{ NSF Student Travel Grant}{}{awarded for the IPAM workshop on ``Algorithmic Challenges in Protecting Privacy for Biomedical Data''}{\textit{Los Angeles, CA}}{}
+\cventry{09/14}{Stanford Graduate Fellowship}{}{three-year graduate fellowship for doctoral studies at Stanford University}{\textit{Stanford, CA}}{}
+\cventry{06/14}{IEEE Communications Society Student Travel Grant}{}{awarded for travel to the IEEE International Conference on Communications 2014}{\textit{Sydney, Australia}}{}
+\cventry{01/13}{Mathematical Association of America Student Travel Grant}{}{awarded for travel to the Joint Mathematics Meetings 2014}{\textit{Baltimore, MD}}{}
+\cventry{06/13}{NSF Student Travel Grant}{}{awarded for travel to the IEEE International Conference on Communications 2013}{\textit{Budapest, Hungary}}{}
+\cventry{06/12}{IEEE Communications Society Student Travel Grant}{}{awarded for travel to the IEEE International Conference on Communications 2012}{\textit{Ottawa, Canada}}{}
+\cventry{09/10}{Franklin W. Olin  Merit Scholarship}{}{four-year half-tuition scholarship awarded for undergraduate studies at Olin College}{\textit{Needham, MA}}{}
+
+
+%%%%%%%%%%%%%
+\vspace{0.1in}
+\section{Professional Service and Leadership}
+\cvline{06/13 - present}{\textbf{Reviewer}  for
+\begin{itemize}
+\item
+2018 International Society for Computational Biology (ISMB)
+\item
+2016 Annual Conference on Neural Information Processing Systems (NIPS)
+\item
+2015 International Conference on Bioinformatics (InCoB)
+\item
+2014 IEEE Vehicular Technology Conference  (VTC)
+\item
+IEEE Communications Letters
+\item
+Journal of Combinatorial Optimization
+\item
+Discrete Applied Mathematics
+\end{itemize}}
+\vspace{-0.2in}
+
+\cvline{11/14 - present}{ \textbf{Vice Chair} of Cross-disciplinary Healthcare Innovation Partnerships at Stanford
+\newline
+{\small Coordinated networking events with healthcare startups and Stanford graduate students, and managed social media and website for the student organization. }
+ }
+
+\cvline{06/11 - 06/13}{\textbf{Chair} of IEEE Olin Student Branch
+\newline
+{\small Organized board meetings, adjudicated responsibilities and led fund-raising. Hosted monthly events for IEEE Power Energy Society and IEEE Consultants' Network. }
+ }
 
 \newpage
 \vspace{-0.05in}
@@ -171,28 +228,29 @@ Studied the impact of unsynchronized (in frequency) interferers in multi-antenna
 
 
 %%%%%%%%%%%%%
-\section{Honors and Awards}
-\cventry{05/18}{Invited Talk}{invited to present work on cancer immuno-profiling analysis at the annual Stanford Center of Cancer Systems Biology Symposium}{}{\textit{Stanford, CA}}{}
-\cventry{04/18}{Popular Poster Award}{voted as the most popular poster at the annual Stanford Biomedical Computation Symposium}{}{\textit{Stanford, CA}}{}
-\cventry{01/18}{ NSF Student Travel Grant}{}{awarded for the IPAM workshop on ``Algorithmic Challenges in Protecting Privacy for Biomedical Data''}{\textit{Los Angeles, CA}}{}
-\cventry{09/14}{Stanford Graduate Fellowship}{}{three-year graduate fellowship for doctoral studies at Stanford University}{\textit{Stanford, CA}}{}
-\cventry{06/14}{IEEE Communications Society Student Travel Grant}{}{awarded for travel to the IEEE International Conference on Communications 2014}{\textit{Sydney, Australia}}{}
-\cventry{01/13}{Mathematical Association of America Student Travel Grant}{}{awarded for travel to the Joint Mathematics Meetings 2014}{\textit{Baltimore, MD}}{}
-\cventry{06/13}{NSF Student Travel Grant}{}{awarded for travel to the IEEE International Conference on Communications 2013}{\textit{Budapest, Hungary}}{}
-\cventry{06/12}{IEEE Communications Society Student Travel Grant}{}{awarded for travel to the IEEE International Conference on Communications 2012}{\textit{Ottawa, Canada}}{}
-\cventry{09/10}{Franklin W. Olin  Merit Scholarship}{}{four-year half-tuition scholarship awarded for undergraduate studies at Olin College}{\textit{Needham, MA}}{}
+\vspace{0.1in}
+\section{Selected Course Projects}
 
+\cventry{Winter 2017}{Machine Comprehension}{Natural Language Processing with Deep Learning}{Stanford University}{}{Implemented a model using bidirectional long short-term memory (BiLSTM) encoding of question and context followed by a co-attention model. Extended the model by adding Dropout and randomization strategies to account for unknown tokens.}
+
+\cventry{Spring 2016}{Mining GTEx Data}{Mining Massive Data Sets}{Stanford University}{}{Led a team of three students to apply different types of LASSO regression to predict Gene Ontology (GO) functions using tissue-specific gene expression data collected by the GTEx consortium. Studied complementary and substitutional effects in predicting these tissue-specific functions. }
+
+\cventry{Spring 2014}{Spectral Imaging for CT}{Senior Capstone Project}{Olin College}{}{Worked on a year-long company project sponsored by Analogic Corporation on a five-person team. Developed digital signal processing algorithms which optimize the quality of the image output by an X-ray computed tomography (CT) system. }
+
+\cventry{Fall 2012}{OFDM with USRP}{Wireless Communications}{Olin College}{}{Implemented a one-to-one link under QPSK and 8-PSK modulation schemes with Orthogonal Frequency-Division Multiplexing (OFDM) using the Universal Software Radio Peripheral (USRP), and accurately transferred data after timing synchronization and channel equalization.}
+
+\cventry{Fall 2012}{Digital Echo Canceller}{Digital Signal Processing}{Olin College}{}{Investigated fundamentals of adaptive filters and implemented acoustic echo cancellers in MATLAB and LabVIEW using the time-domain and the frequency-domain least-mean-square algorithms.}
+
+\cventry{Spring 2012}{Wireless Power Transfer}{Signals and Systems}{Olin College}{}{Self-studied principles of power transfer in magnetic coupled circuits, compared two different models: capacitors in series and parallel with inductors by circuit simulation, and found the optimal load resistance.}
+
+
+\cventry{Spring 2011}{Brainwave-controlled Game}{Modeling and Controls}{Olin College}{}{Designed a two-player brainwave battle game:  built filter and amplification circuits, modified electro-node sensors for clean real-time measurement of low-beta brainwaves, manipulated fan speed with analog output through Arduino controls.}
+
+\cventry{Spring 2011}{Stock Market Prediction Program}{Software Design}{Olin College}{}{Created a Python program with the ability to draw correlation between stocks with link analysis, developed prediction models validated by historical stock market data and designed an interactive user-friendly GUI.}
 
 
 %%%%%%%%%%%%%
 \vspace{0.3in}
-\section{Skills}
-\cvline{}{Python, R, Javascript, C/C++, MATLAB}
-
-
-
-%%%%%%%%%%%%%
-\vspace{1.3in}
 \section{Teaching}
 
 \cvline{}{{\large \textbf{{Graduate Teaching Assistant}}}, Stanford University,\textit{ Stanford, CA}}
@@ -234,57 +292,6 @@ Studied the impact of unsynchronized (in frequency) interferers in multi-antenna
 
 
 
-%%%%%%%%%%%%%
-\vspace{0.3in}
-
-\section{Selected Course Projects}
-
-\cventry{Spring 2016}{Mining GTEx Data}{Mining Massive Data Sets}{Stanford University}{}{Led a team of three students to apply different types of LASSO regression to predict Gene Ontology (GO) functions using tissue-specific gene expression data collected by the GTEx consortium. Studied complementary and substitutional effects in predicting these tissue-specific functions. }
-
-\cventry{Spring 2014}{Spectral Imaging for CT}{Senior Capstone Project}{Olin College}{}{Worked on a year-long company project sponsored by Analogic Corporation on a five-person team. Developed digital signal processing algorithms which optimize the quality of the image output by an X-ray computed tomography (CT) system. }
-
-\cventry{Fall 2012}{OFDM with USRP}{Wireless Communications}{Olin College}{}{Implemented a one-to-one link under QPSK and 8-PSK modulation schemes with Orthogonal Frequency-Division Multiplexing (OFDM) using the Universal Software Radio Peripheral (USRP), and accurately transferred data after timing synchronization and channel equalization.}
-
-\cventry{Fall 2012}{Digital Echo Canceller}{Digital Signal Processing}{Olin College}{}{Investigated fundamentals of adaptive filters and implemented acoustic echo cancellers in MATLAB and LabVIEW using the time-domain and the frequency-domain least-mean-square algorithms.}
-
-\cventry{Spring 2012}{Wireless Power Transfer}{Signals and Systems}{Olin College}{}{Self-studied principles of power transfer in magnetic coupled circuits, compared two different models: capacitors in series and parallel with inductors by circuit simulation, and found the optimal load resistance.}
-
-
-\cventry{Spring 2011}{Brainwave-controlled Game}{Modeling and Controls}{Olin College}{}{Designed a two-player brainwave battle game:  built filter and amplification circuits, modified electro-node sensors for clean real-time measurement of low-beta brainwaves, manipulated fan speed with analog output through Arduino controls.}
-
-\cventry{Spring 2011}{Stock Market Prediction Program}{Software Design}{Olin College}{}{Created a Python program with the ability to draw correlation between stocks with link analysis, developed prediction models validated by historical stock market data and designed an interactive user-friendly GUI.}
-
-%%%%%%%%%%%%%
-\vspace{0.3in}
-\section{Professional Service and Leadership}
-\cvline{06/13 - present}{\textbf{Reviewer}  for
-\begin{itemize}
-\item
-2018 International Society for Computational Biology (ISMB)
-\item
-2016 Annual Conference on Neural Information Processing Systems (NIPS)
-\item
-2015 International Conference on Bioinformatics (InCoB)
-\item
-2014 IEEE Vehicular Technology Conference  (VTC)
-\item
-IEEE Communications Letters
-\item
-Journal of Combinatorial Optimization
-\item
-Discrete Applied Mathematics
-\end{itemize}}
-\vspace{-0.2in}
-
-\cvline{11/14 - present}{ \textbf{Vice Chair} of Cross-disciplinary Healthcare Innovation Partnerships at Stanford
-\newline
-{\small Coordinated networking events with healthcare startups and Stanford graduate students, and managed social media and website for the student organization. }
- }
-
-\cvline{06/11 - 06/13}{\textbf{Chair} of IEEE Olin Student Branch
-\newline
-{\small Organized board meetings, adjudicated responsibilities and led fund-raising. Hosted monthly events for IEEE Power Energy Society and IEEE Consultants' Network. }
- }
 
 
 \end{document}
