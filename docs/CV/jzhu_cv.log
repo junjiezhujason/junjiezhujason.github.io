@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  19 JAN 2019 12:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  19 JAN 2019 14:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1207,11 +1207,11 @@ Package rerunfilecheck Info: File `jzhu_cv.out' has not changed.
 (rerunfilecheck)             Checksum: 98A625635C2864D5EF3C1534A0C57A24;897.
  ) 
 Here is how much of TeX's memory you used:
- 27093 strings out of 493089
- 501075 string characters out of 6134842
+ 27089 strings out of 493089
+ 501033 string characters out of 6134842
  568353 words of memory out of 5000000
  30040 multiletter control sequences out of 15000+600000
- 79455 words of font info for 119 fonts, out of 8000000 for 9000
+ 79289 words of font info for 117 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,11n,58p,10359b,337s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
@@ -1229,7 +1229,7 @@ lic/lm/lmri10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr
 o10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></u
 sr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy9.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on jzhu_cv.pdf (5 pages, 271300 bytes).
+Output written on jzhu_cv.pdf (5 pages, 271569 bytes).
 PDF statistics:
  146 PDF objects out of 1000 (max. 8388607)
  124 compressed objects within 2 object streams
