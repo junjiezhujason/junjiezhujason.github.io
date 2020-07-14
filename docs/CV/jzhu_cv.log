@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 JUL 2020 10:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 JUL 2020 10:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1188,21 +1188,21 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2] [3]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 264.
+(Font)              <9> on input line 266.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 264.
+Package hyperref Warning: Ignoring empty anchor on input line 266.
 
 [4]
 
-Package hyperref Warning: Ignoring empty anchor on input line 282.
+Package hyperref Warning: Ignoring empty anchor on input line 284.
 
 [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 312.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 312.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 314.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 314.
  (./jzhu_cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 312.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 312.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 314.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 314.
 Package rerunfilecheck Info: File `jzhu_cv.out' has not changed.
 (rerunfilecheck)             Checksum: 99CD9AF80E9A18EE4BBB918CCDE3EF9F;917.
  ) 
@@ -1229,7 +1229,7 @@ lic/lm/lmri10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr
 o10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></u
 sr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy9.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on jzhu_cv.pdf (5 pages, 268599 bytes).
+Output written on jzhu_cv.pdf (5 pages, 268563 bytes).
 PDF statistics:
  146 PDF objects out of 1000 (max. 8388607)
  124 compressed objects within 2 object streams
