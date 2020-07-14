@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  2 SEP 2019 17:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 JUL 2020 10:24
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **jzhu_cv.tex
 (./jzhu_cv.tex
@@ -1189,36 +1188,30 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2] [3]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 258.
+(Font)              <9> on input line 264.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 258.
+Package hyperref Warning: Ignoring empty anchor on input line 264.
 
+[4]
 
-Package hyperref Warning: Ignoring empty anchor on input line 276.
+Package hyperref Warning: Ignoring empty anchor on input line 282.
 
-[4] [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 306.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 306.
+[5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 312.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 312.
  (./jzhu_cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 306.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 306.
-
-
-Package rerunfilecheck Warning: File `jzhu_cv.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `jzhu_cv.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  99CD9AF80E9A18EE4BBB918CCDE3EF9F;917.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 312.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 312.
+Package rerunfilecheck Info: File `jzhu_cv.out' has not changed.
+(rerunfilecheck)             Checksum: 99CD9AF80E9A18EE4BBB918CCDE3EF9F;917.
  ) 
 Here is how much of TeX's memory you used:
- 27067 strings out of 493089
- 500793 string characters out of 6134842
- 572249 words of memory out of 5000000
- 30032 multiletter control sequences out of 15000+600000
- 78720 words of font info for 110 fonts, out of 8000000 for 9000
+ 27077 strings out of 493089
+ 500901 string characters out of 6134842
+ 568353 words of memory out of 5000000
+ 30040 multiletter control sequences out of 15000+600000
+ 78803 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,12n,58p,10359b,343s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
@@ -1236,10 +1229,10 @@ lic/lm/lmri10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr
 o10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></u
 sr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy9.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on jzhu_cv.pdf (5 pages, 267539 bytes).
+Output written on jzhu_cv.pdf (5 pages, 268599 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
+ 146 PDF objects out of 1000 (max. 8388607)
+ 124 compressed objects within 2 object streams
  32 named destinations out of 1000 (max. 500000)
- 25613 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 25669 words of extra memory for PDF output out of 29859 (max. 10000000)
 
