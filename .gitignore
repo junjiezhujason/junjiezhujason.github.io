@@ -1,6 +1,19 @@
-docs/CV/*.aux
-docs/CV/*.fdb_latexmk
-docs/CV/*.fls
-docs/CV/*.log
-docs/CV/*.out
-docs/CV/*.synctex.gz
+# TeX intermediate and output files
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.nav
+*.snm
+*.vrb
+*.xdv
+
+# Mac-specific
+.DS_Store
