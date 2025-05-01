@@ -11,6 +11,7 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
+\usepackage{ragged2e}
 \input{glyphtounicode}
 
 
@@ -105,20 +106,26 @@
 \end{tabular*}
 
 %-----------SUMMARY-----------------
+% \section{Summary}
+% I am a curiosity-driven and scientifically-trained builder with experience in AI/ML, Statistics, and Graph Algorithms. 
+% Drawn to hidden patterns, scalable impact, and high-agency teams, I have continuously been applying my skills to real-world problems: 
+% multi-modal RAGs, search products, biomedical discovery, etc. 
+
 \section{Summary}
+\begin{justify}
 I am a curiosity-driven and scientifically-trained builder with experience in AI/ML, Statistics, and Graph Algorithms. 
 Drawn to hidden patterns, scalable impact, and high-agency teams, I have continuously been applying my skills to real-world problems: 
 multi-modal RAGs, search products, biomedical discovery, etc. 
+\end{justify}
 
 %-----------EDUCATION-----------------
 \section{Education}
-  \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-    \textbf{Stanford University} & Stanford, CA \\
-    \textit{\small Ph.D. in Electrical Engineering · M.S. in Statistics} & \textit{\small 2014 -- 2020} \\
-    \textbf{Franklin W. Olin College of Engineering} & Needham, MA \\
-    \textit{\small B.S. in Electrical and Computer Engineering} & \textit{\small 2010 -- 2014} \\
-  \end{tabular*}
-
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.65\textwidth}r}
+\textbf{Stanford University} & Stanford, CA \\
+\textit{\small Ph.D. in Electrical Engineering · M.S. in Statistics} & \textit{\small 2014 -- 2020} \\[0.4em]
+\textbf{Olin College of Engineering} & Needham, MA \\
+\textit{\small B.S. in Electrical and Computer Engineering} & \textit{\small 2010 -- 2014} \\
+\end{tabular*}
 %-----------PROFESSIONAL EXPERIENCE-----------------
 \section{Experience}
 \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
@@ -126,44 +133,56 @@ multi-modal RAGs, search products, biomedical discovery, etc.
   \textit{\small Head of AI/ML} & \textit{\small Feb 2025 -- Present} \\
   \multicolumn{2}{l}{
     \begin{minipage}{\textwidth}
-      \begin{itemize}[leftmargin=1.2em, itemsep=0.5pt, topsep=1pt]
-        \item Leadership: Leading a lean and fast-paced team to accelerate Gen-AI edge inference on any device.
-        \item Local RAGs: Developing privacy-preserving RAGs with small AI models and on-device vision capabilities.
-        \item Agentic Systems: Researching action-driven applications with new AI protocols (e.g., MCP, A2A).
+      \vspace{0.3em}
+      \begin{itemize}[leftmargin=*, itemsep=-4.5pt, topsep=0pt, label={\raisebox{0.4ex}{\tiny\textbullet}}]
+        \item  Leadership: Leading a lean and fast-paced team to accelerate Gen-AI edge inference on CPUs, NPUs, and GPUs.
+        \item  Local RAGs: Developing privacy-preserving RAGs with small AI models and on-device vision capabilities.
+        \item  Agentic Systems: Designing action-driven applications and prototypes with new AI protocols (e.g., MCP, A2A).
       \end{itemize}
     \end{minipage}
   } \\
+  \noalign{\vspace{0.7em}}
 
   \textbf{Apple} & Cupertino, CA \\
   \textit{\small Machine Learning Engineer} & \textit{\small Jan 2020 -- Feb 2025} \\
   \multicolumn{2}{l}{
     \begin{minipage}{\textwidth}
-      \begin{itemize}[leftmargin=1.2em, itemsep=2pt, topsep=0pt]
-        \item Synthetic Data Generation: Invented methods to test model robustness via high-dimensional perturbations.
-        \item Preference Learning: Designed cost-efficient offline A/B testing to handle user distribution shifts.
-        \item System Evaluation: Implemented production pipelines to evaluate query understanding and ranking systems.
+      \vspace{0.3em}
+      \begin{itemize}[leftmargin=*, itemsep=-4.5pt, topsep=0pt, label={\raisebox{0.4ex}{\tiny\textbullet}}]       
+        \item  Mentorship: Coached software and ML engineers to publish and present at internal and external conferences.
+        \item  Synthetic Data Generation: Invented methods to test model robustness via high-dimensional perturbations.
+        \item  Preference Learning: Designed cost-efficient offline A/B testing to handle user preference and distribution shifts.
+        \item  System Testing: Implemented pipelines (Java) to evaluate query understanding systems for Maps Search.
+        \item  Ranking Triage: Developed methods to intepret the impact of multi-ranker systems with linear-time algorithms.
       \end{itemize}
     \end{minipage}
   } \\
+  \noalign{\vspace{0.7em}}
 
   \textbf{Stanford University} & Stanford, CA \\
-  \textit{\small Research Assistant} & \textit{\small Sep 2016 -- Feb 2020} \\
+  \textit{\small Research Assistant} & \textit{\small Sep 2014 -- Feb 2020} \\
   \multicolumn{2}{l}{
     \begin{minipage}{\textwidth}
-      \begin{itemize}[leftmargin=1.2em, itemsep=1pt, topsep=0pt]
-        \item Graph Visualization: Developed graph visualizations to interpret and analyze the Gene Ontology.
-        \item Unsupervised Learning: Created dimension-reduction methods for stem cell and cancer model systems.
+      \vspace{0.3em}
+      \begin{itemize}[leftmargin=*, itemsep=-4.5pt, topsep=0pt, label={\raisebox{0.4ex}{\tiny\textbullet}}]
+        \item  Graph Visualization: Built graph visualizations to interpret and analyze the Gene Ontology.
+        \item  Statistical Inference: Improved multiple-hypothesis testing methods to account for data snooping.
+        \item  Unsupervised Learning: Created dimension-reduction methods for stem cell and cancer model systems.
+        \item  Selective Inference: Proposed methods to study tissue-specific expression quantitative trait loci.
+        \item  Sequence Alignment: Optimized speed and accuracy of DNA sequence alignment in C/C++.
       \end{itemize}
     \end{minipage}
   } \\
+  \noalign{\vspace{0.7em}}
 
   \textbf{Olin College of Engineering} & Needham, MA \\
   \textit{\small Research Assistant} & \textit{\small Sep 2010 -- May 2014} \\
   \multicolumn{2}{l}{
     \begin{minipage}{\textwidth}
-      \begin{itemize}[leftmargin=1.2em, itemsep=1pt, topsep=0pt]
-        \item Graph Theory: Solved distance-2-based graph coloring problems for special graph families.
-        \item Information Theory: Modeled wireless networks with stochastic geometric and interference models.
+      \vspace{0.3em}
+      \begin{itemize}[leftmargin=*, itemsep=-4.5pt, topsep=0pt, label={\raisebox{0.4ex}{\tiny\textbullet}}]
+        \item  Graph Theory: Solved distance-2-based graph coloring problems for special graph families.
+        \item  Information Theory: Modeled wireless networks with stochastic geometric and interference models.
       \end{itemize}
     \end{minipage}
   } \\
@@ -178,8 +197,6 @@ multi-modal RAGs, search products, biomedical discovery, etc.
     \item Exploratory gene ontology analysis with interactive visualization. \textit{Scientific Reports, 2019}
     \item Visualization and analysis of sc-RNA-seq data by kernel-based similarity learning. \textit{Nature Methods, 2017}
   \end{enumerate}
-
-%-----------GOOGLE SCHOLAR-----------------
-See Google Scholar for full list: \url{https://scholar.google.com/citations?user=2EasRdEAAAAJ&hl}
+Full list shown on Google Scholar: \url{https://scholar.google.com/citations?user=2EasRdEAAAAJ&hl}
 %-------------------------------------------
 \end{document}
