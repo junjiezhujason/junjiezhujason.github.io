@@ -1,0 +1,256 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS-------------------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{}{\Large Jason (Junjie) Zhu}} & Email: \href{}{junjie.zhu.jason@gmail.com}\\
+  \href{}{jasonjunjiezhu.com} & Mobile: \href{}{650-285-7123} \\
+\end{tabular*}
+
+%-----------SUMMARY-----------------
+\section{Summary}
+I am a curiosity-driven and scientifically-trained builder with experience in AI/ML, Statistics, and Graph Algorithms. 
+Drawn to hidden patterns, scalable impact, and high-agency teams, I have continuously been applying my skills to real-world problems: 
+multi-modal RAGs, search products, biomedical discovery, etc. 
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Stanford University}{Stanford, CA}
+      {Ph.D. in Electrical Engineering · M.S. in Statistics}{2014 -- 2020}
+    \resumeSubheading
+      {Franklin W. Olin College of Engineering}{Needham, MA}
+      {B.S. in Electrical and Computer Engineering}{2010 -- 2014}
+  \resumeSubHeadingListEnd
+
+%-----------PROFESSIONAL EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Nexa AI}{Cupertino, CA}
+      {Head of AI/ML}{Feb 2025 -- Present}
+      \resumeItemListStart
+        \resumeItem{Leadership}
+          {Leading a lean and fast-paced team to accelerate Gen-AI edge inference on any device.}
+        \resumeItem{Local RAGs}
+          {Developing privacy-preserving RAGs with small AI models and on-device vision capabilities.}
+        \resumeItem{Agentic Systems}
+          {Researching action-driven applications with new AI protocols (e.g., MCP, A2A).}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Apple}{Cupertino, CA}
+      {Machine Learning Engineer}{Jan 2020 -- Feb 2025}
+      \resumeItemListStart
+        \resumeItem{Synthetic Data Generation}
+          {Invented methods to test model robustness via high-dimensional perturbations.}
+        \resumeItem{Preference Learning}
+          {Designed cost-efficient offline A/B testing to handle user distribution shifts.}
+        \resumeItem{System Evaluation}
+          {Implemented production pipelines to evaluate query understanding and ranking systems.}
+      \resumeItemListEnd
+      
+    
+      \resumeSubheading
+      {Stanford University}{Stanford, CA}
+      {Research Assistant}{Sep 2016 -- Feb 2020}
+      \resumeItemListStart
+        \resumeItem{Graph Visualization}
+          {Developed graph visualizations to interpret and analyze the Gene Ontology.}
+        \resumeItem{Unsupervised Learning}
+          {Created dimension-reduction methods for stem cell and cancer model systems.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Illumina}{San Francisco Bay Area}
+      {Deep Learning Scientist (Internship)}{Jun 2017 -- Aug 2017}
+      \resumeItemListStart
+        \resumeItem{Model Architecture}
+          {Combined CNNs, RNNs, and ResNets to improve accuracy for base-calling applications.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {10X Genomics}{Pleasanton, CA}
+      {Data Scientist (Internship)}{Jun 2016 -- Aug 2016}
+      \resumeItemListStart
+        \resumeItem{R/Python Pipelines}
+          {Built and productionized pipelines for exploratory single-cell analysis.}
+      \resumeItemListEnd
+
+      
+      \resumeSubheading
+      {Olin College of Engineering}{Needham, MA}
+      {Research Assistant}{Sep 2010 -- May 2014}
+      \resumeItemListStart
+        \resumeItem{Graph Theory}
+          {Solved distance-2-based graph coloring problems for special graph families.}
+        \resumeItem{Information Theory}
+          {Modeled wireless networks with stochastic geometric and interference models.}
+      \resumeItemListEnd
+      
+  \resumeSubHeadingListEnd
+
+%-----------RESEARCH EXPERIENCE-----------------
+% \section{Research Experience}
+%   \resumeSubHeadingListStart
+
+%     \resumeSubheading
+%       {Department of Statistics, Stanford University}{Stanford, CA}
+%       {Researcher}{Sep 2016 -- Feb 2020}
+%       \resumeItemListStart
+%         \resumeItem{Gene Ontology}
+%           {Developed graph visualizations to interpret and analyze the Gene Ontology.}
+%         \resumeItem{Single-cell RNA-seq}
+%           {Implemented exploratory data analysis pipelines for stem-cell and cancer model systems.}
+%         \resumeItem{Selective Inference}
+%           {Proposed selective inference methods to study tissue-specific expression quantitative trait loci.}
+%       \resumeItemListEnd
+
+%     \resumeSubheading
+%       {Department of Computer Science, Stanford University}{Stanford, CA}
+%       {Researcher}{Sep 2014 -- Sep 2016}
+%       \resumeItemListStart
+%         \resumeItem{Sequence Alignment}
+%           {Designed algorithms in C/C++ to improve speed and accuracy of state-of-the-art sequence aligners for linked-read data.}
+%       \resumeItemListEnd
+
+%     \resumeSubheading
+%       {Wireless Communication Group, Olin College}{Needham, MA}
+%       {Researcher}{Sep 2010 -- May 2014}
+%       \resumeItemListStart
+%         \resumeItem{SDMA Networks}
+%           {Proposed stochastic geometric interference models to extend SDMA network applications.}
+%       \resumeItemListEnd
+
+%     \resumeSubheading
+%       {Graph Theory Research Group, Olin College}{Needham, MA}
+%       {Researcher}{Dec 2011 -- May 2014}
+%       \resumeItemListStart
+%         \resumeItem{Graph Coloring}
+%           {Investigated frequency assignment in wireless networks through graph coloring.}
+%         \resumeItem{L(2,1)-labeling}
+%           {Found minimum span for L(2,1)-labeling in various graph families.}
+%       \resumeItemListEnd
+
+%     \resumeSubheading
+%       {Signal Processing and Communication Laboratory, HKUST}{Hong Kong}
+%       {Researcher}{Jul 2013 -- Sep 2013}
+%       \resumeItemListStart
+%         \resumeItem{OFDM Systems}
+%           {Studied unsynchronized interferers in multi-antenna OFDM systems.}
+%         \resumeItem{Linear Receivers}
+%           {Discovered closed-form solutions for typical linear receiver performance.}
+%       \resumeItemListEnd
+
+%   \resumeSubHeadingListEnd
+
+%-----------SELECTED PUBLICATIONS-----------------
+\section{Selected Publications}
+\vspace{0.5em}
+  \begin{itemize}[leftmargin=*, topsep=4pt, parsep=2pt, itemsep=1pt]
+    \item Automatically Authoring Regression Tests for Machine-Learning-Based Systems. \textit{ICSE, 2021}
+    \item Progenitor identification and SARS-CoV-2 infection in human distal lung organoids. \textit{Nature, 2020}
+    \item Exploratory gene ontology analysis with interactive visualization. \textit{Scientific Reports, 2019}
+    \item Visualization and analysis of sc-RNA-seq data by kernel-based similarity learning. \textit{Nature Methods, 2017}
+  \end{itemize}
+
+%-----------GOOGLE SCHOLAR-----------------
+See Google Scholar for full list:: \url{}
+%-------------------------------------------
+\end{document}
