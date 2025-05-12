@@ -51,6 +51,8 @@
   \vspace{-4pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
+
+
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
 
@@ -96,22 +98,25 @@
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+% Add this after the color package
+\definecolor{keywordcolor}{RGB}{0, 90, 160}
 
 \begin{document}
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{\href{}{\Large Jason (Junjie) Zhu, Ph.D.}} & Email: \href{}{junjie.zhu.jason@gmail.com}\\
-  \href{}{jasonjunjiezhu.com} & Mobile: \href{}{650-285-7123} \\
+  \href{https://jasonjunjiezhu.com}{https://jasonjunjiezhu.com} & Mobile: \href{tel:+16502857123}{650-285-7123} \\
+  % \href{https://scholar.google.com/citations?user=2EasRdEAAAAJ&hl}{Google Scholar} & \\
 \end{tabular*}
 
 %-----------SUMMARY-----------------
 
 \section{Summary}
 \begin{justify}
-I am a curiosity-driven, scientifically trained builder with 10+ years of experience in AI/ML, statistics, and graph algorithms. 
-I have had the fortune to collaborate with world-class researchers and top-tier product teams to drive meaningful, collective impact—reflected in 10,000+ citations to my publications. 
-Passionate about complex challenges and high-agency environments, I architect and implement scalable solutions across emerging domains, from multi-modal RAGs and intelligent search to biomedical discovery.
+  I am a curiosity driven, scientifically trained builder with over 10 years of experience in AI/ML, statistics, and graph algorithms. My academic work has received over 10,000 citations, and beyond research, I have led and built production systems from the ground up: designing systems, writing production code, shaping direction, and delivering impact alongside top tier product teams. These include scalable systems in multi modal RAGs, intelligent search, and biomedical discovery.
+  I value clear, thoughtful communication as much as technical precision, and care deeply about getting the details right. 
+  I have found my greatest motivation comes not just from building things that work, but from helping people grow, especially those who bring diverse perspectives and backgrounds. 
 \end{justify}
 
 %-----------EDUCATION-----------------
@@ -122,7 +127,8 @@ Passionate about complex challenges and high-agency environments, I architect an
 \textbf{Olin College of Engineering} & Needham, MA \\
 \textit{\small B.S. in Electrical and Computer Engineering} & \textit{\small 2010 -- 2014} \\
 \end{tabular*}
-%-----------PROFESSIONAL EXPERIENCE-----------------
+
+
 \section{Experience}
 \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
   \textbf{Nexa AI} & Cupertino, CA \\
@@ -131,25 +137,23 @@ Passionate about complex challenges and high-agency environments, I architect an
     \begin{minipage}{\textwidth}
       \vspace{0.3em}
       \begin{itemize}[leftmargin=*, itemsep=-4.5pt, topsep=0pt, label={\raisebox{0.4ex}{\tiny\textbullet}}]
-        \item  Leadership: Spearheading a small team to optimize Gen-AI edge inference across CPU/NPU/GPU platforms.
-        \item  Local RAGs: Pioneering privacy-first RAG systems with lightweight AI models and edge vision processing.
-        \item  Agentic Systems: Architecting next-generation AI applications using emerging protocols (e.g., MCP, A2A).
+        \item {\bf RAG Productization}: Led a team of four to develop and launch an on-device RAG application in under three months, leveraging continuous regression testing and weekly iterations to accelerate quality improvements.
+        \item {\bf Semantic Search Innovation}: Invented, prototyped, and deployed a semantic file-search system with structured metadata, vector search, and @-search support, significantly improving file recall quality.
       \end{itemize}
     \end{minipage}
   } \\
   \noalign{\vspace{0.7em}}
 
   \textbf{Apple} & Cupertino, CA \\
-  \textit{\small Machine Learning Engineer} & \textit{\small Jan 2020 -- Feb 2025} \\
+  \textit{\small Machine Learning Engineer} & \textit{\small Feb 2020 -- Feb 2025} \\
   \multicolumn{2}{l}{
     \begin{minipage}{\textwidth}
       \vspace{0.3em}
       \begin{itemize}[leftmargin=*, itemsep=-4.5pt, topsep=0pt, label={\raisebox{0.4ex}{\tiny\textbullet}}]       
-        \item  Mentorship: Empowered engineers to achieve recognition through internal and external conference publications.
-        \item  Synthetic Data Generation: Pioneered robust frameworks using advanced dimensional perturbation techniques.
-        \item  Preference Learning: Designed offline A/B testing to capture preference dynamics and distribution shifts.
-        \item  Query Intent Testing: Built high-performance Java pipelines for Maps Search query understanding evaluation.
-        \item  Ranking Triage: Proposed and implemented linear-time algorithms to debug and improve multi-ranker systems.
+        \item {\bf Offline Evaluation}: Spearheaded the development and rollout of an offline evaluation service to rigorously quantify feature impact on user experience prior to public releases, enabling faster improvement cycles. Owned multi-year roadmap strategy and stakeholder alignment. Scaled the initiative from a solo effort to a five-person team, empowering members to independently drive new scopes and sustain the roadmap beyond my tenure.
+        \item {\bf Research Innovation}: Designed novel generative and retrieval-based frameworks to evaluate million-scale daily traffic in Apple Maps Search; presented methodologies at top-tier software engineering conferences ({\it ICSE}, {\it FSE}).
+        \item {\bf Infrastructure Modernization}: Revamped internal testing pipelines for query understanding and ranking, reducing release cycles from weekly to daily and improving launch stability for WWDC-featured products.
+        \item {\bf Technical Leadership}: Mentored team members in defining project scopes and preparing presentations for internal AI/ML conferences, fostering professional growth and cross-team visibility.
       \end{itemize}
     \end{minipage}
   } \\
@@ -161,38 +165,35 @@ Passionate about complex challenges and high-agency environments, I architect an
     \begin{minipage}{\textwidth}
       \vspace{0.3em}
       \begin{itemize}[leftmargin=*, itemsep=-4.5pt, topsep=0pt, label={\raisebox{0.4ex}{\tiny\textbullet}}]
-        \item  Graph Visualization: Engineered interactive visualizations for Gene Ontology analysis.
-        \item  Statistical Inference: Enhanced multiple-hypothesis testing to eliminate data snooping bias.
-        \item  Unsupervised Learning: Developed novel dimension-reduction techniques for cellular modeling.
-        \item  Selective Inference: Implemented advanced methods for tissue-specific eQTL analysis.
-        \item  Sequence Alignment: Enhanced DNA sequence alignment performance through C/C++ optimization.
+        \item \textbf{Full-Stack Data Science}: Developed an interactive tool to visualize and perform power analysis on 30,000+ Gene Ontology terms, enabling large-scale association discovery with controlled false discovery rate.
+        \item {\bf Scalable Graph Learning}: Built graph-based unsupervised learning pipelines for million-scale, high-dimensional datasets, resulting in publications in {\it Nature}, {\it Nature Methods}, {\it Cell}, and {\it NeurIPS}.
       \end{itemize}
     \end{minipage}
   } \\
   \noalign{\vspace{0.7em}}
 
-  \textbf{Olin College of Engineering} & Needham, MA \\
-  \textit{\small Research Assistant} & \textit{\small Sep 2010 -- May 2014} \\
-  \multicolumn{2}{l}{
-    \begin{minipage}{\textwidth}
-      \vspace{0.3em}
-      \begin{itemize}[leftmargin=*, itemsep=-4.5pt, topsep=0pt, label={\raisebox{0.4ex}{\tiny\textbullet}}]
-        \item  Graph Theory: Resolved distance-2 graph coloring challenges for specialized graph families.
-        \item  Information Theory: Developed stochastic geometric models for wireless network interference.
-      \end{itemize}
-    \end{minipage}
-  } \\
+  % \textbf{Olin College of Engineering} & Needham, MA \\
+  % \textit{\small Undergraduate Researcher} & \textit{\small Sep 2010 -- May 2014} \\
+  % \multicolumn{2}{l}{
+  %   \begin{minipage}{\textwidth}
+  %     \vspace{0.3em}
+  %     % TODO: combine these into one bullet point
+  %     \begin{itemize}[leftmargin=*, itemsep=-4.5pt, topsep=0pt, label={\raisebox{0.4ex}{\tiny\textbullet}}]
+  %       \item {\bf Theoretical Research}: Developed combinatorial algorithms for graph coloring and stochastic geometric models for wireless interference, leading to 8 publications—5 in discrete math journals and 3 in flagship IEEE conferences.
+  %     \end{itemize}
+  %   \end{minipage}
+  % } \\
 \end{tabular*}
 
 %-----------SELECTED PUBLICATIONS-----------------
-\section{Selected Publications}
-\vspace{0.5em}
-  \begin{enumerate}[leftmargin=*, topsep=4pt, parsep=2pt, itemsep=1pt]
-    \item Automatically Authoring Regression Tests for Machine-Learning-Based Systems. \textit{ICSE, 2021}
-    \item Progenitor identification and SARS-CoV-2 infection in human distal lung organoids. \textit{Nature, 2020}
-    \item Exploratory gene ontology analysis with interactive visualization. \textit{Scientific Reports, 2019}
-    \item Visualization and analysis of sc-RNA-seq data by kernel-based similarity learning. \textit{Nature Methods, 2017}
-  \end{enumerate}
-Full list shown on Google Scholar: \url{https://scholar.google.com/citations?user=2EasRdEAAAAJ&hl}
+% Removing this entire section
 %-------------------------------------------
+
+%-----------SKILLS-----------------
+\section{Technical \& Scientific Expertise}
+\begin{itemize}[leftmargin=*, itemsep=-4pt, topsep=0pt, label={\raisebox{0.4ex}{\tiny\textbullet}}]
+  \item \textbf{Core tools in regular use}: Python, Java, SQL, Pandas, NumPy, Git, CI/CD, REST APIs  
+  \item \textbf{Academic publications}: Available at: \url{https://scholar.google.com/citations?user=2EasRdEAAAAJ&hl}
+\end{itemize}
+
 \end{document}
